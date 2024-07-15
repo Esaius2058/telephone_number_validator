@@ -1,0 +1,45 @@
+:root{
+    --navy-blue: #272343;
+    --light-blue: #e3f6f5;
+    --white: #ffffff;
+  }
+  
+  body{
+    font-family: Verdana, Helvetica;
+    background-color: var(--navy-blue);
+    padding-top: 5rem;
+  }
+  
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--light-blue);
+  }
+  
+  .validator-container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button{
+    border: 0;
+    background-color: var(--light-blue);
+    color: var(--navy-blue);
+    font-family: Helvetica;
+    width: 4rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input{
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.3rem;
+  }
